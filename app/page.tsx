@@ -159,8 +159,8 @@ export default function Home() {
           paradise of Karimunjawa. Experience crystal-clear waters, peaceful
           beachfront villas, and unforgettable island sunsets.
         </p>
-      </section>
-
+      </section> 
+      
 {/* EXPERIENCE */}
 <section
   style={{
