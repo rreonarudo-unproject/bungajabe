@@ -160,7 +160,7 @@ export default function Home() {
           beachfront villas, and unforgettable island sunsets.
         </p>
       </section>
-      
+
 {/* EXPERIENCE */}
 <section
   style={{
@@ -333,6 +333,176 @@ export default function Home() {
           />
         </div>
       </section>
+
+{/* ROOMS */}
+<section
+  style={{
+    padding: "100px 40px",
+    background: "#0d0d0d",
+  }}
+>
+  <div
+    style={{
+      textAlign: "center",
+      marginBottom: "60px",
+    }}
+  >
+    <h2
+      style={{
+        fontSize: "42px",
+        marginBottom: "20px",
+      }}
+    >
+      Our Rooms
+    </h2>
+
+    <p
+      style={{
+        opacity: 0.7,
+        maxWidth: "700px",
+        margin: "auto",
+        lineHeight: "1.8",
+      }}
+    >
+      Relax in thoughtfully designed beachfront accommodations surrounded by
+      tropical serenity and ocean breeze.
+    </p>
+  </div>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit,minmax(320px,1fr))",
+      gap: "30px",
+    }}
+  >
+    {/* ROOM 1 */}
+    <div
+      style={{
+        background: "#1a1a1a",
+        borderRadius: "24px",
+        overflow: "hidden",
+      }}
+    >
+      <img
+        src="/room.jpg"
+        style={{
+          width: "100%",
+          height: "280px",
+          objectFit: "cover",
+        }}
+      />
+
+      <div style={{ padding: "30px" }}>
+        <h3
+          style={{
+            fontSize: "28px",
+            marginBottom: "10px",
+          }}
+        >
+          Ocean View Villa
+        </h3>
+
+        <p
+          style={{
+            opacity: 0.7,
+            lineHeight: "1.7",
+            marginBottom: "20px",
+          }}
+        >
+          Spacious beachfront villa with panoramic sea views and private
+          tropical ambience.
+        </p>
+
+        <h4
+          style={{
+            marginBottom: "20px",
+          }}
+        >
+          Start from IDR 1.850K / night
+        </h4>
+
+        <a
+          href="https://wa.me/628123456789"
+          target="_blank"
+          style={{
+            background: "white",
+            color: "black",
+            padding: "12px 24px",
+            borderRadius: "999px",
+            textDecoration: "none",
+            fontWeight: "bold",
+          }}
+        >
+          BOOK NOW
+        </a>
+      </div>
+    </div>
+
+    {/* ROOM 2 */}
+    <div
+      style={{
+        background: "#1a1a1a",
+        borderRadius: "24px",
+        overflow: "hidden",
+      }}
+    >
+      <img
+        src="/beach.jpg"
+        style={{
+          width: "100%",
+          height: "280px",
+          objectFit: "cover",
+        }}
+      />
+
+      <div style={{ padding: "30px" }}>
+        <h3
+          style={{
+            fontSize: "28px",
+            marginBottom: "10px",
+          }}
+        >
+          Tropical Suite
+        </h3>
+
+        <p
+          style={{
+            opacity: 0.7,
+            lineHeight: "1.7",
+            marginBottom: "20px",
+          }}
+        >
+          Elegant tropical suite designed for peaceful island retreat and
+          luxurious comfort.
+        </p>
+
+        <h4
+          style={{
+            marginBottom: "20px",
+          }}
+        >
+          Start from IDR 2.450K / night
+        </h4>
+
+        <a
+          href="https://wa.me/6285512500086"
+          target="_blank"
+          style={{
+            background: "white",
+            color: "black",
+            padding: "12px 24px",
+            borderRadius: "999px",
+            textDecoration: "none",
+            fontWeight: "bold",
+          }}
+        >
+          BOOK NOW
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* FOOTER */}
       <footer
