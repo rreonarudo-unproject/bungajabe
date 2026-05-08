@@ -38,19 +38,19 @@ export default function Home() {
       alignItems: "center",
     }}
   >
-    <a href="#" style={{ color: "white", textDecoration: "none" }}>
+    <a href="#home" style={{ color: "white", textDecoration: "none" }}>
       Home
     </a>
 
-    <a href="#" style={{ color: "white", textDecoration: "none" }}>
+    <a href="#experience" style={{ color: "white", textDecoration: "none" }}>
       Experience
     </a>
 
-    <a href="#" style={{ color: "white", textDecoration: "none" }}>
+    <a href="#gallery" style={{ color: "white", textDecoration: "none" }}>
       Gallery
     </a>
 
-    <a href="#" style={{ color: "white", textDecoration: "none" }}>
+    <a href="#contact" style={{ color: "white", textDecoration: "none" }}>
       Contact
     </a>
 
@@ -72,7 +72,7 @@ export default function Home() {
 </nav>
 
       {/* HERO */}
-      <section
+      <section id="home"
         style={{
           height: "100vh",
           backgroundImage: "url('/hero.jpg')",
@@ -162,7 +162,7 @@ export default function Home() {
       </section> 
 
 {/* EXPERIENCE */}
-<section
+<section id="experience"
   style={{
     padding: "100px 40px",
     background: "#111",
@@ -290,7 +290,7 @@ export default function Home() {
 </section>
 
       {/* GALLERY */}
-      <section
+      <section id="gallery"
         style={{
           padding: "40px",
         }}
@@ -335,7 +335,7 @@ export default function Home() {
       </section>
 
 {/* ROOMS */}
-<section
+<section id="rooms"
   style={{
     padding: "100px 40px",
     background: "#0d0d0d",
@@ -505,7 +505,7 @@ export default function Home() {
 </section>
 
       {/* FOOTER */}
-      <footer
+      <footer id="contact"
         style={{
           textAlign: "center",
           padding: "40px",
