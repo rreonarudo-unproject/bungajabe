@@ -160,7 +160,7 @@ export default function Home() {
           beachfront villas, and unforgettable island sunsets.
         </p>
       </section> 
-      
+
 {/* EXPERIENCE */}
 <section
   style={{
@@ -514,6 +514,32 @@ export default function Home() {
       >
         © 2026 Bunga Jabe Beach Resort
       </footer>
+
+      {/* FLOATING WHATSAPP */}
+<a
+  href="https://wa.me/628123456789"
+  target="_blank"
+  style={{
+    position: "fixed",
+    bottom: "30px",
+    right: "30px",
+    width: "65px",
+    height: "65px",
+    borderRadius: "999px",
+    background: "#25D366",
+    color: "white",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "30px",
+    textDecoration: "none",
+    zIndex: 999,
+    boxShadow: "0 10px 30px rgba(0,0,0,0.3)",
+  }}
+>
+  💬
+</a>
+
     </main>
   );
 }
