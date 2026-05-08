@@ -7,6 +7,70 @@ export default function Home() {
         fontFamily: "Arial, sans-serif",
       }}
     >
+      {/* NAVBAR */}
+<nav
+  style={{
+    position: "fixed",
+    top: 0,
+    width: "100%",
+    padding: "24px 60px",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    zIndex: 999,
+    background: "rgba(0,0,0,0.25)",
+    backdropFilter: "blur(10px)",
+  }}
+>
+  <h2
+    style={{
+      letterSpacing: "4px",
+      fontSize: "20px",
+    }}
+  >
+    BUNGA JABE
+  </h2>
+
+  <div
+    style={{
+      display: "flex",
+      gap: "30px",
+      alignItems: "center",
+    }}
+  >
+    <a href="#" style={{ color: "white", textDecoration: "none" }}>
+      Home
+    </a>
+
+    <a href="#" style={{ color: "white", textDecoration: "none" }}>
+      Experience
+    </a>
+
+    <a href="#" style={{ color: "white", textDecoration: "none" }}>
+      Gallery
+    </a>
+
+    <a href="#" style={{ color: "white", textDecoration: "none" }}>
+      Contact
+    </a>
+
+    <a
+      href="https://wa.me/628551500086"
+      target="_blank"
+      style={{
+        background: "white",
+        color: "black",
+        padding: "12px 24px",
+        borderRadius: "999px",
+        textDecoration: "none",
+        fontWeight: "bold",
+      }}
+    >
+      BOOK NOW
+    </a>
+  </div>
+</nav>
+
       {/* HERO */}
       <section
         style={{
@@ -96,6 +160,134 @@ export default function Home() {
           beachfront villas, and unforgettable island sunsets.
         </p>
       </section>
+      
+{/* EXPERIENCE */}
+<section
+  style={{
+    padding: "100px 40px",
+    background: "#111",
+  }}
+>
+  <div
+    style={{
+      textAlign: "center",
+      marginBottom: "60px",
+    }}
+  >
+    <h2
+      style={{
+        fontSize: "42px",
+        marginBottom: "20px",
+      }}
+    >
+      Experiences
+    </h2>
+
+    <p
+      style={{
+        opacity: 0.7,
+        maxWidth: "700px",
+        margin: "auto",
+        lineHeight: "1.8",
+      }}
+    >
+      Discover unforgettable island adventures and immerse yourself in the
+      tropical beauty of Karimunjawa.
+    </p>
+  </div>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))",
+      gap: "30px",
+    }}
+  >
+    {/* CARD 1 */}
+    <div
+      style={{
+        background: "#1a1a1a",
+        padding: "40px",
+        borderRadius: "24px",
+      }}
+    >
+      <h3
+        style={{
+          fontSize: "28px",
+          marginBottom: "20px",
+        }}
+      >
+        🌴 Island Hopping
+      </h3>
+
+      <p
+        style={{
+          opacity: 0.7,
+          lineHeight: "1.8",
+        }}
+      >
+        Explore hidden tropical islands, crystal-clear lagoons, and untouched
+        white sand beaches around Karimunjawa.
+      </p>
+    </div>
+
+    {/* CARD 2 */}
+    <div
+      style={{
+        background: "#1a1a1a",
+        padding: "40px",
+        borderRadius: "24px",
+      }}
+    >
+      <h3
+        style={{
+          fontSize: "28px",
+          marginBottom: "20px",
+        }}
+      >
+        🤿 Snorkeling
+      </h3>
+
+      <p
+        style={{
+          opacity: 0.7,
+          lineHeight: "1.8",
+        }}
+      >
+        Swim among vibrant coral reefs and colorful marine life in the pristine
+        waters of the Java Sea.
+      </p>
+    </div>
+
+    {/* CARD 3 */}
+    <div
+      style={{
+        background: "#1a1a1a",
+        padding: "40px",
+        borderRadius: "24px",
+      }}
+    >
+      <h3
+        style={{
+          fontSize: "28px",
+          marginBottom: "20px",
+        }}
+      >
+        🌅 Sunset Escape
+      </h3>
+
+      <p
+        style={{
+          opacity: 0.7,
+          lineHeight: "1.8",
+        }}
+      >
+        Enjoy magical sunset moments by the beach with a peaceful atmosphere
+        and breathtaking ocean views.
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* GALLERY */}
       <section
