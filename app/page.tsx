@@ -1,4 +1,12 @@
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
 export default function Home() {
+  useEffect(() => {
+  AOS.init({
+    duration: 1200,
+  });
+}, []);
   return (
     <main
       style={{
@@ -132,6 +140,7 @@ export default function Home() {
 
       {/* ABOUT */}
       <section
+      data-aos="fade-up"
         style={{
           padding: "100px 20px",
           textAlign: "center",
@@ -162,7 +171,9 @@ export default function Home() {
       </section> 
 
 {/* EXPERIENCE */}
-<section id="experience"
+<section
+  id="experience"
+  data-aos="fade-up"
   style={{
     padding: "80px 20px",
     background: "#111",
@@ -290,7 +301,9 @@ export default function Home() {
 </section>
 
       {/* GALLERY */}
-      <section id="gallery"
+      <section
+  id="gallery"
+  data-aos="fade-up"
         style={{
           padding: "40px",
         }}
@@ -306,7 +319,7 @@ export default function Home() {
             src="/room.jpg"
             style={{
               width: "100%",
-              height: "300px",
+              height: "400px",
               objectFit: "cover",
               borderRadius: "20px",
             }}
@@ -335,7 +348,8 @@ export default function Home() {
       </section>
 
 {/* ROOMS */}
-<section id="rooms"
+<section
+  data-aos="fade-up"
   style={{
     padding: "100px 40px",
     background: "#0d0d0d",
@@ -388,7 +402,7 @@ export default function Home() {
         src="/room.jpg"
         style={{
           width: "100%",
-          height: "220px",
+          height: "280px",
           objectFit: "cover",
         }}
       />
