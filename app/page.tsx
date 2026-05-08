@@ -13,7 +13,7 @@ export default function Home() {
     position: "fixed",
     top: 0,
     width: "100%",
-    padding: "24px 60px",
+    padding: "20px",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
@@ -25,7 +25,7 @@ export default function Home() {
   <h2
     style={{
       letterSpacing: "4px",
-      fontSize: "20px",
+      fontSize: "16px",
     }}
   >
     BUNGA JABE
@@ -34,7 +34,7 @@ export default function Home() {
   <div
     style={{
       display: "flex",
-      gap: "30px",
+      gap: "16px",
       alignItems: "center",
     }}
   >
@@ -96,7 +96,7 @@ export default function Home() {
         <div style={{ position: "relative", zIndex: 2 }}>
           <h1
             style={{
-              fontSize: "72px",
+              fontSize: "clamp(42px, 10vw, 72px)",
               letterSpacing: "8px",
               marginBottom: "20px",
             }}
@@ -106,7 +106,7 @@ export default function Home() {
 
           <p
             style={{
-              fontSize: "20px",
+              fontSize: "clamp(16px, 4vw, 20px)",
               opacity: 0.9,
             }}
           >
@@ -164,7 +164,7 @@ export default function Home() {
 {/* EXPERIENCE */}
 <section id="experience"
   style={{
-    padding: "100px 40px",
+    padding: "80px 20px",
     background: "#111",
   }}
 >
@@ -306,7 +306,7 @@ export default function Home() {
             src="/room.jpg"
             style={{
               width: "100%",
-              height: "400px",
+              height: "300px",
               objectFit: "cover",
               borderRadius: "20px",
             }}
@@ -388,7 +388,7 @@ export default function Home() {
         src="/room.jpg"
         style={{
           width: "100%",
-          height: "280px",
+          height: "220px",
           objectFit: "cover",
         }}
       />
@@ -523,8 +523,8 @@ export default function Home() {
     position: "fixed",
     bottom: "30px",
     right: "30px",
-    width: "65px",
-    height: "65px",
+    width: "58px",
+    height: "58px",
     borderRadius: "999px",
     background: "#25D366",
     color: "white",
